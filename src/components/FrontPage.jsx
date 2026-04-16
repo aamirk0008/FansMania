@@ -87,7 +87,7 @@ const FrontPage = () => {
               >
                 {[rcb1, rcb2, rcb3, rcb4, rcb5].map((img, i) => (
                   <SwiperSlide key={i}>
-                    <img src={img} alt={`RCB Scene ${i+1}`} className='w-full h-full object-cover' />
+                    <img src={img} alt={`RCB Scene ${i+1}`} className='w-full h-full object-cover' referrerPolicy="no-referrer" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                   </SwiperSlide>
                 ))}

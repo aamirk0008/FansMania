@@ -11,19 +11,19 @@ const CarouselSlide = () => {
       accent: "The Milestone"
     },
     { 
-      src: 'https://www.royalchallengers.com/PRRCB01/public/2024-05/Arjun406_1003.jpg', 
+      src: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2067&auto=format&fit=crop', 
       title: 'Play Bold', 
       desc: 'Experience the raw intensity and passion as the Challengers fight for every run.',
       accent: "The Spirit"
     },
     { 
-      src: 'https://www.royalchallengers.com/PRRCB01/public/2024-05/Arjun406_0551.jpg', 
+      src: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1905&auto=format&fit=crop', 
       title: '12th Man Army', 
       desc: 'The loudest roar in the world. Our fans are our heartbeat at the Chinnaswamy.',
       accent: "The Support"
     },
     { 
-      src: 'https://www.royalchallengers.com/PRRCB01/public/2024-05/Arjun406_1404.jpg', 
+      src: 'https://images.unsplash.com/photo-1593341646782-e0b495cff86d?q=80&w=1974&auto=format&fit=crop', 
       title: 'Victory Roar', 
       desc: 'Celebrating moments of pure joy and hard-earned triumphs on the field.',
       accent: "The Glory"

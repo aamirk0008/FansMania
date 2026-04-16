@@ -35,7 +35,7 @@ const Brands = () => {
               whileHover={{ scale: 1.05 }}
               className="bg-white p-8 rounded-3xl shadow-2xl"
             >
-              <img className="w-48 sm:w-64 lg:w-80 object-contain" src={partners.main.src} alt={partners.main.name} />
+              <img className="w-48 sm:w-64 lg:w-80 object-contain" src={partners.main.src} alt={partners.main.name} referrerPolicy="no-referrer" />
             </motion.div>
           </div>
 
@@ -47,7 +47,7 @@ const Brands = () => {
                 whileHover={{ y: -5 }}
                 className="bg-white/5 p-8 rounded-2xl border border-white/5 hover:bg-white/10 transition-colors flex items-center justify-center h-32"
               >
-                <img className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all duration-500" src={src} alt="Partner" />
+                <img className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all duration-500" src={src} alt="Partner" referrerPolicy="no-referrer" />
               </motion.div>
             ))}
           </div>
@@ -55,7 +55,7 @@ const Brands = () => {
           {/* Associate Partners */}
           <div className="flex flex-wrap justify-center gap-6 sm:gap-12 items-center opacity-50 hover:opacity-100 transition-opacity duration-500">
             {partners.associate.map((src, i) => (
-              <img key={i} className="h-8 sm:h-12 object-contain grayscale" src={src} alt="Partner" />
+              <img key={i} className="h-8 sm:h-12 object-contain grayscale" src={src} alt="Partner" referrerPolicy="no-referrer" />
             ))}
           </div>
         </div>

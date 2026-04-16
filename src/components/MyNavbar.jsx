@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import logoPic from "../assets/rcb-logo.png";
+import logoPicLocal from "../assets/rcb-logo.png";
+const logoPic = "https://feeds-100mb.s3-ap-southeast-1.amazonaws.com/teamLogos/RCB.png";
 import { Menu, X, Search } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -22,7 +23,7 @@ const MyNavbar = () => {
           <Link to="/" className='flex items-center gap-3 group'>
             <div className="relative">
               <div className="absolute -inset-2 bg-red-600 rounded-full blur opacity-0 group-hover:opacity-50 transition duration-500"></div>
-              <img src={logoPic} className='w-12 h-14 relative drop-shadow-[0_0_8px_rgba(255,0,0,0.5)]' alt="logo" />
+              <img src={logoPic} className='w-12 h-14 relative drop-shadow-[0_0_8px_rgba(255,0,0,0.5)]' alt="logo" referrerPolicy="no-referrer" />
             </div>
             <div className="flex flex-col leading-tight">
               <span className='text-2xl font-black tracking-tighter uppercase italic'>Fans<span className='text-red-600'>Mania</span></span>
